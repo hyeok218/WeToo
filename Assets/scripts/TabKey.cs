@@ -45,6 +45,6 @@ public class TabKey : MonoBehaviour
             submitButton.onClick.Invoke();
             Debug.Log("Button pressed!");
         }
-        Debug.Log(FirebaseAuthManager.Instance.cnt);
+        //Debug.Log(FirebaseAuthManager.Instance.cnt);
     }
 }
