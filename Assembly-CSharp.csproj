@@ -58,8 +58,9 @@
      <Compile Include="Assets\Firebase\CanvasOn.cs" />
      <Compile Include="Assets\Firebase\FirebaseAuthManager.cs" />
      <Compile Include="Assets\Firebase\LogInSystem.cs" />
-     <Compile Include="Assets\Scripts\TabKey.cs" />
-     <Compile Include="Assets\Scripts\TabKey2.cs" />
+     <Compile Include="Assets\Samples\OpenAI Unity\0.1.10\ChatGPT\ChatGPT.cs" />
+     <Compile Include="Assets\scripts\TabKey.cs" />
+     <Compile Include="Assets\scripts\TabKey2.cs" />
      <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-app-unity\maven-metadata.xml" />
      <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-analytics-unity\maven-metadata.xml" />
      <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-auth-unity\maven-metadata.xml" />
@@ -247,22 +248,25 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
  </Reference>
  <Reference Include="Firebase.Analytics">
- <HintPath>D:/hyeok/Github/WeToo/Assets/Firebase/Plugins/Firebase.Analytics.dll</HintPath>
+ <HintPath>C:/Users/USER/Documents/github/WeToo/Assets/Firebase/Plugins/Firebase.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="Firebase.App">
- <HintPath>D:/hyeok/Github/WeToo/Assets/Firebase/Plugins/Firebase.App.dll</HintPath>
+ <HintPath>C:/Users/USER/Documents/github/WeToo/Assets/Firebase/Plugins/Firebase.App.dll</HintPath>
  </Reference>
  <Reference Include="Firebase.Auth">
- <HintPath>D:/hyeok/Github/WeToo/Assets/Firebase/Plugins/Firebase.Auth.dll</HintPath>
+ <HintPath>C:/Users/USER/Documents/github/WeToo/Assets/Firebase/Plugins/Firebase.Auth.dll</HintPath>
  </Reference>
  <Reference Include="Firebase.Platform">
- <HintPath>D:/hyeok/Github/WeToo/Assets/Firebase/Plugins/Firebase.Platform.dll</HintPath>
+ <HintPath>C:/Users/USER/Documents/github/WeToo/Assets/Firebase/Plugins/Firebase.Platform.dll</HintPath>
  </Reference>
  <Reference Include="Firebase.TaskExtension">
- <HintPath>D:/hyeok/Github/WeToo/Assets/Firebase/Plugins/Firebase.TaskExtension.dll</HintPath>
+ <HintPath>C:/Users/USER/Documents/github/WeToo/Assets/Firebase/Plugins/Firebase.TaskExtension.dll</HintPath>
  </Reference>
  <Reference Include="Google.MiniJson">
- <HintPath>D:/hyeok/Github/WeToo/Assets/Firebase/Plugins/Google.MiniJson.dll</HintPath>
+ <HintPath>C:/Users/USER/Documents/github/WeToo/Assets/Firebase/Plugins/Google.MiniJson.dll</HintPath>
+ </Reference>
+ <Reference Include="Newtonsoft.Json">
+ <HintPath>C:/Users/USER/Documents/github/WeToo/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -610,34 +614,37 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.40f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>D:/hyeok/Github/WeToo/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>C:/Users/USER/Documents/github/WeToo/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>D:/hyeok/Github/WeToo/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>C:/Users/USER/Documents/github/WeToo/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>D:/hyeok/Github/WeToo/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/USER/Documents/github/WeToo/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>D:/hyeok/Github/WeToo/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Users/USER/Documents/github/WeToo/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>D:/hyeok/Github/WeToo/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>C:/Users/USER/Documents/github/WeToo/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>D:/hyeok/Github/WeToo/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>C:/Users/USER/Documents/github/WeToo/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VisualStudio.Editor">
- <HintPath>D:/hyeok/Github/WeToo/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+ <HintPath>C:/Users/USER/Documents/github/WeToo/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>D:/hyeok/Github/WeToo/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/USER/Documents/github/WeToo/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PlasticSCM.Editor">
- <HintPath>D:/hyeok/Github/WeToo/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+ <HintPath>C:/Users/USER/Documents/github/WeToo/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>D:/hyeok/Github/WeToo/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>C:/Users/USER/Documents/github/WeToo/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="OpenAI.Runtime">
+ <HintPath>C:/Users/USER/Documents/github/WeToo/Library/ScriptAssemblies/OpenAI.Runtime.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
