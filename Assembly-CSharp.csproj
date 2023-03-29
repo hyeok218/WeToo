@@ -58,8 +58,8 @@
      <Compile Include="Assets\Firebase\CanvasOn.cs" />
      <Compile Include="Assets\Firebase\FirebaseAuthManager.cs" />
      <Compile Include="Assets\Firebase\LogInSystem.cs" />
-     <Compile Include="Assets\scripts\TabKey.cs" />
-     <Compile Include="Assets\scripts\TabKey2.cs" />
+     <Compile Include="Assets\Scripts\TabKey.cs" />
+     <Compile Include="Assets\Scripts\TabKey2.cs" />
      <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-app-unity\maven-metadata.xml" />
      <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-analytics-unity\maven-metadata.xml" />
      <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-auth-unity\maven-metadata.xml" />
