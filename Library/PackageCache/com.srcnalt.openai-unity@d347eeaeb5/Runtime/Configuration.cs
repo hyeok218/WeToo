@@ -26,6 +26,7 @@ namespace OpenAI
             {
                 var userPath = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile);
                 var authPath = $"{userPath}/.openai/auth.json";
+                //"C:\.openai"
 
                 if (File.Exists(authPath))
                 {
