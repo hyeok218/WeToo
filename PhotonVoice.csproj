@@ -57,27 +57,27 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Photon\PhotonVoice\Code\UtilityScripts\ConnectAndJoin.cs" />
-    <Compile Include="Assets\Photon\PhotonVoice\Code\UtilityScripts\PhotonVoiceLagSimulationGui.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Code\UtilityScripts\SaveIncomingStreamToFile.cs" />
-    <Compile Include="Assets\Photon\PhotonVoice\Code\UtilityScripts\MicAmplifier\MicAmplifierFloat.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Code\Speaker.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Code\PhotonAppSettings.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Code\UtilityScripts\WaveWriter.cs" />
-    <Compile Include="Assets\Photon\PhotonVoice\Code\SpeakerAudioFilterRead.cs" />
-    <Compile Include="Assets\Photon\PhotonVoice\Code\UtilityScripts\PhotonVoiceStatsGui.cs" />
+    <Compile Include="Assets\Photon\PhotonVoice\Code\AudioChangesHandler.cs" />
+    <Compile Include="Assets\Photon\PhotonVoice\Code\UtilityScripts\TestTone.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Code\UtilityScripts\MicAmplifier\MicAmplifierShort.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Code\RemoteVoiceLink.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Code\UtilityScripts\MicAmplifier\MicAmplifier.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Code\WebRtcAudioDsp.cs" />
-    <Compile Include="Assets\Photon\PhotonVoice\Code\UtilityScripts\SaveOutgoingStreamToFile.cs" />
-    <Compile Include="Assets\Photon\PhotonVoice\Code\VoiceLogger.cs" />
-    <Compile Include="Assets\Photon\PhotonVoice\Code\AudioChangesHandler.cs" />
-    <Compile Include="Assets\Photon\PhotonVoice\Code\Recorder.cs" />
-    <Compile Include="Assets\Photon\PhotonVoice\Code\UtilityScripts\TestTone.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Code\UtilityScripts\MicrophonePermission.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Code\VoiceComponent.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Code\UnityVoiceClient.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Code\RecorderPreset.cs" />
+    <Compile Include="Assets\Photon\PhotonVoice\Code\UtilityScripts\PhotonVoiceLagSimulationGui.cs" />
+    <Compile Include="Assets\Photon\PhotonVoice\Code\SpeakerAudioFilterRead.cs" />
+    <Compile Include="Assets\Photon\PhotonVoice\Code\UtilityScripts\SaveOutgoingStreamToFile.cs" />
+    <Compile Include="Assets\Photon\PhotonVoice\Code\VoiceLogger.cs" />
+    <Compile Include="Assets\Photon\PhotonVoice\Code\UtilityScripts\MicAmplifier\MicAmplifierFloat.cs" />
+    <Compile Include="Assets\Photon\PhotonVoice\Code\UtilityScripts\PhotonVoiceStatsGui.cs" />
+    <Compile Include="Assets\Photon\PhotonVoice\Code\Recorder.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Photon\PhotonVoice\Code\PhotonVoice.asmdef" />
@@ -329,11 +329,17 @@
     <Reference Include="UnityEditor.Graphs">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.5f1\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.Android.Extensions">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.5f1\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.5f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Photon3Unity3D">
+      <HintPath>Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.dll</HintPath>
+    </Reference>
+    <Reference Include="log4netPlastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.18\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.18\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
@@ -344,23 +350,8 @@
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.18\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
     </Reference>
-    <Reference Include="log4netPlastic">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.18\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="Photon3Unity3D">
-      <HintPath>Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.dll</HintPath>
-    </Reference>
     <Reference Include="websocket-sharp">
       <HintPath>Assets\Photon\PhotonLibs\WebSocket\websocket-sharp.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Android.Types">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.5f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Android.Gradle">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.5f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Gradle.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.5f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
