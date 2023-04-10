@@ -359,6 +359,11 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/OptiTrack/Plugins/Managed/NatNetLib/Client.cs"
+"Assets/OptiTrack/Plugins/Managed/NatNetLib/Native.cs"
+"Assets/OptiTrack/Scripts/OptitrackRigidBody.cs"
+"Assets/OptiTrack/Scripts/OptitrackSkeletonAnimator.cs"
+"Assets/OptiTrack/Scripts/OptitrackStreamingClient.cs"
 "Assets/Photon/PhotonChat/Demos/Common/EventSystemSpawner.cs"
 "Assets/Photon/PhotonChat/Demos/Common/OnStartDelete.cs"
 "Assets/Photon/PhotonChat/Demos/Common/TextButtonTransition.cs"
@@ -407,6 +412,7 @@
 "Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Scripts/UiExtensions.cs"
 "Assets/Photon/PhotonVoice/Demos/Fusion/DemoNetworkObject/PrefabSpawner.cs"
 "Assets/Samples/OpenAI Unity/0.1.10/ChatGPT/ChatGPT.cs"
+<<<<<<< Updated upstream
 "Assets/Samples/OpenAI Unity/0.1.11/Whisper/SaveWav.cs"
 "Assets/Samples/OpenAI Unity/0.1.11/Whisper/Whisper.cs"
 "Assets/scripts/cameraMove.cs"
@@ -415,6 +421,15 @@
 "Assets/scripts/TabKey.cs"
 "Assets/scripts/TabKey2.cs"
 "Assets/scripts/UIButton.cs"
+=======
+"Assets/Scripts/cameraMove.cs"
+"Assets/Scripts/MainUI.cs"
+"Assets/Scripts/NPCDialog.cs"
+"Assets/Scripts/PlayerController.cs"
+"Assets/Scripts/TabKey.cs"
+"Assets/Scripts/TabKey2.cs"
+"Assets/Scripts/UIButton.cs"
+>>>>>>> Stashed changes
 -langversion:9.0
 
 /deterministic
