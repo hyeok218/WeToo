@@ -8,7 +8,7 @@ namespace OpenAI
     {
         [SerializeField] private Button recordButton;
         [SerializeField] private Image progressBar;
-        [SerializeField] private Text message;
+        [SerializeField] private InputField message;
         [SerializeField] private Dropdown dropdown;
         
         private readonly string fileName = "output.wav";
@@ -48,7 +48,7 @@ namespace OpenAI
 
         private async void EndRecording()
         {
-            message.text = "Transcripting...";
+            message.text = "변환 중...";
             
             Microphone.End(null);
             byte[] data = SaveWav.Save(fileName, clip);
@@ -61,6 +61,7 @@ namespace OpenAI
                 Language = "en"
             };
             var res = await openai.CreateAudioTranscription(req);
+            Debug.Log(res.Text.GetType().Name);
 
             progressBar.fillAmount = 0;
             message.text = res.Text;

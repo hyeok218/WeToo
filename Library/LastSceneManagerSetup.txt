@@ -1,9 +1,5 @@
 sceneSetups:
-<<<<<<< Updated upstream
-- path: Assets/Samples/OpenAI Unity/0.1.11/Whisper/Whisper Sample.unity
-=======
-- path: Assets/Scenes/MultiScene.unity
->>>>>>> Stashed changes
+- path: Assets/Scenes/TestScene/JAMIN2.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
