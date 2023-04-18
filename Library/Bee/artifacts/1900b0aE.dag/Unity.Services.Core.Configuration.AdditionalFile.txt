@@ -1,5 +1,1 @@
-<<<<<<< Updated upstream
-C:\Users\user\Documents\GitHub\WeToo
-=======
 D:\hyeok\Github\WeToo
->>>>>>> Stashed changes
