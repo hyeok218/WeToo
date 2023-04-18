@@ -12,15 +12,18 @@ EditorBuildSettings:
     path: Assets/Scenes/TestScene/Myroom.unity
     guid: 5bd0412a89fb5774da21e219bca95432
   - enabled: 1
-    path: Assets/Scenes/MultiScene.unity
+    path: Assets/Scenes/Yet/MultiScene.unity
     guid: 400367af56360844aa41656a0fcd7491
   - enabled: 1
-    path: Assets/Scenes/SingleScene.unity
+    path: Assets/Scenes/Yet/SingleScene.unity
     guid: ebc456631648e0e439307be146f60058
   - enabled: 1
     path: Assets/Scenes/TestScene/Single2.unity
     guid: bb4db81a48831b242adf28a112791bac
   - enabled: 1
-    path: Assets/Platform/Scenes/Play.unity
+    path: Assets/Scenes/Play.unity
     guid: 64aba4725e6203946b318662dd53e1aa
+  - enabled: 1
+    path: Assets/Platform/Scenes/Play 1.unity
+    guid: 006058d6338449b41807718c3a6f2ce5
   m_configObjects: {}

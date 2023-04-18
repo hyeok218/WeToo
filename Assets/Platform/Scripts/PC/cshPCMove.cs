@@ -50,14 +50,14 @@ public class cshPCMove : MonoBehaviour
             if (CamState) // 1ÀÎÄª --> 3ÀÎÄª
             {
                 CamState = false;
-                CameraCenter.GetComponent<cshFPCamera>().rotSpeed = TPRotSpeed;
+                //CameraCenter.GetComponent<cshFPCamera>().rotSpeed = TPRotSpeed;
                 CameraCenter.transform.GetChild(0).gameObject.SetActive(false);
                 CameraCenter.transform.GetChild(1).gameObject.SetActive(true);
             }
             else // 3ÀÎÄª --> 1ÀÎÄª
             {
                 CamState = true;
-                CameraCenter.GetComponent<cshFPCamera>().rotSpeed = FPRotSpeed;
+                //CameraCenter.GetComponent<cshFPCamera>().rotSpeed = FPRotSpeed;
                 CameraCenter.transform.GetChild(0).gameObject.SetActive(true);
                 CameraCenter.transform.GetChild(1).gameObject.SetActive(false);
             }
