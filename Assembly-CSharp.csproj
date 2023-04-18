@@ -76,16 +76,28 @@
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoiceUI\Scripts\MicrophoneDropdownFiller.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Scripts\BaseController.cs" />
     <Compile Include="Assets\Samples\OpenAI Unity\0.1.11\Whisper\SaveWav.cs" />
+<<<<<<< Updated upstream
     <Compile Include="Assets\scripts\cameraMove.cs" />
+=======
+    <Compile Include="Assets\Scripts\cameraMove.cs" />
+>>>>>>> Stashed changes
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Scripts\CharacterInstantiation.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoiceUI\Scripts\CodecSettingsUI.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Standard Assets\CrossPlatformInput\Scripts\TouchPad.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Standard Assets\CrossPlatformInput\Scripts\Joystick.cs" />
+<<<<<<< Updated upstream
     <Compile Include="Assets\scripts\PlayerController.cs" />
     <Compile Include="Assets\scripts\MainUI.cs" />
     <Compile Include="Assets\scripts\TabKey2.cs" />
     <Compile Include="Assets\OptiTrack\Plugins\Managed\NatNetLib\Client.cs" />
     <Compile Include="Assets\scripts\TabKey.cs" />
+=======
+    <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\MainUI.cs" />
+    <Compile Include="Assets\Scripts\TabKey2.cs" />
+    <Compile Include="Assets\OptiTrack\Plugins\Managed\NatNetLib\Client.cs" />
+    <Compile Include="Assets\Scripts\TabKey.cs" />
+>>>>>>> Stashed changes
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChannelSelector.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoiceUI\Scripts\UiExtensions.cs" />
     <Compile Include="Assets\OptiTrack\Scripts\OptitrackStreamingClient.cs" />
@@ -117,8 +129,13 @@
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Scripts\MouseLookHelper.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\OnStartDelete.cs" />
     <Compile Include="Assets\Photon\PhotonVoice\Demos\DemoVoicePun\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
+<<<<<<< Updated upstream
     <Compile Include="Assets\scripts\NPCDialog.cs" />
     <Compile Include="Assets\scripts\STT_GPT.cs" />
+=======
+    <Compile Include="Assets\Scripts\NPCDialog.cs" />
+    <Compile Include="Assets\Scripts\MotionCaptureGesture.cs" />
+>>>>>>> Stashed changes
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

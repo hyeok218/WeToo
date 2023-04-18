@@ -3,3 +3,4 @@
 Assets/Firebase/Plugins/x86_64/FirebaseCppApp-10_5_0.bundle filter=lfs diff=lfs merge=lfs -text
 *.zip filter=lfs diff=lfs merge=lfs -text
 *.png filter=lfs diff=lfs merge=lfs -text
+32ecc58cb4e08ef5b24b6c61caec5f27 filter=lfs diff=lfs merge=lfs -text
